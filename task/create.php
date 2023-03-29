@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+	<?php require_once '../head.php' ?>
 	<title>Create new task</title>
 </head>
+
 <body>
+	<?php require_once '../header.php' ?>
+
 	<h1>Create new task</h1>
 	<form method="POST" action="tasksController.php">
-        <input type="hidden" id = "task" value = "create">
+		<input type="hidden" id="task" value="create">
 		<label for="title">Title:</label><br>
 		<input type="text" id="title" name="title"><br><br>
 
@@ -23,7 +28,8 @@
 			<option value="groen">Groen</option>
 		</select><br><br>
 
-		<input type="submit" value="Create">
+		<input type="submit" value="create">
 	</form>
 </body>
+
 </html>

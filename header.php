@@ -1,4 +1,4 @@
-<?php require_once './backend/conn.php'; ?>
+<?php require_once 'backend/config.php' ?>
 
 <header>
     <div class="navigation">
@@ -12,4 +12,4 @@
             <a href="<?php echo $base_url; ?>./login.php">Inloggen</a>
         </div>
     </div>
-</header>
+</header>   

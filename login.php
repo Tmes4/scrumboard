@@ -3,7 +3,6 @@
 <head>
     <title>Login</title>
     <?php require_once './head.php';?>
-    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <?php require_once './header.php';?>
