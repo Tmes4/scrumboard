@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <?php require_once './head.php';?>
+    <?php require_once './head.php'; ?>
     <title>Scrumboard</title>
 </head>
 
@@ -11,7 +12,7 @@
     </header>
 
     <div class="container-home">
-        <h1>hallo</h1>
     </div>
 </body>
+
 </html>
