@@ -8,3 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@1,600&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Cookie&family=Open+Sans:ital,wght@1,600&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
