@@ -19,5 +19,9 @@
             </nav>
         </aside>
     </Section>
+
+    <section class="main">
+        
+    </section>
 </body>
 </html>

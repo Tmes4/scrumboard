@@ -1,7 +1,6 @@
 <?php require_once 'backend/config.php' ?>
 
 <header>
-<<<<<<< Updated upstream
     <div class="header-area">
         <div class="logo">
             <img src="<?php echo $base_url; ?>./img/logo-big-v4.png" alt="">
@@ -22,24 +21,4 @@
                 <p>EIGEN NAAM</p>
             </div>
         </div>
-=======
-    <div class="navigation">
-        <nav>
-            <div class="logo">
-                <img src="" alt="">
-                <h2>Developer Land</h2>
-            </div>
-
-            <a href="<?php echo $base_url; ?>./index.php">Home</a>
-            <a href="<?php echo $base_url; ?>./index.php">Scrumboard</a>
-            <a href="<?php echo $base_url; ?>./index.php">Instelling</a>
-            <a href="<?php echo $base_url; ?>./task/create.php">Create</a> <!-- dit is alleen om de pagina te testen straks kan deze weg en je eigen ding er in zetten  -->
-            <a href="<?php echo $base_url; ?>./login.php">Inloggen</a>
-        </nav>
-
-
-
-
->>>>>>> Stashed changes
-    </div>
 </header>
