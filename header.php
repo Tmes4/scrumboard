@@ -3,10 +3,9 @@
 <header>
     <div class="header-area">
         <div class="logo">
-            <img src="./img/logo-big-v4.png" alt="">
+            <img src="<?php echo $base_url; ?>./img/logo-big-v4.png" alt="">
             <!-- <h2>Developer Land</h2> -->
         </div>
-
         <div class="navbar-area">
             <div class="nav-holder">
                 <ul>
@@ -17,7 +16,7 @@
                 </ul>
             </div>
             <div class="profile">
-                <img src="./img/img_avatar.png" alt="">
+                <img src="<?php echo $base_url; ?>./img/img_avatar.png" alt="">
                 <p>EIGEN NAAM</p>
             </div>
         </div>

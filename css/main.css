@@ -3,6 +3,10 @@
   --secondaryColor:#0a2133;
 } */
 
+body {
+  width: 100%;
+}
+
 /* header STRAT */
 
 header {
@@ -13,7 +17,6 @@ header {
 .header-area {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   height: 100px;
   align-items: center;
   padding: 0 20px;
@@ -72,6 +75,7 @@ header {
 .nav-holder ul li a  {
   color: #000;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .nav-holder ul li::before {
@@ -108,11 +112,10 @@ header {
 }
 
 .nav-holder ul li:hover::after {
-  right: -3px;
-  bottom: -3px;
+  right: -2px;
+  bottom: -2px;
   opacity: 1;
   cursor: pointer;
-
 }
 
 /* profile style */
@@ -133,4 +136,49 @@ header {
 .profile img:hover {
   transition: 0.6s;
   width: 50px ;
+}
+
+/* Login START */
+
+main {
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  padding: 70px 50px;
+  box-shadow: 0px 10px 10px rgba(0.1);
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  padding-left: 30px;
+  margin: 10px 0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.inlog-img {
+  width: 300px;
+  
 }
