@@ -13,11 +13,12 @@
       <img src="<?php echo $base_url; ?>./img/logo-big-outlines-only.png" class="inlog-img">
       <h2 class="title">Login</h2>
       <form action="./backend/loginController.php" method="POST">
+        <input type="hidden" name="login" id="login">
         <label for="username">Gebruiknaam:</label>
         <input type="text" name="username" id="username" placeholder="Je gebruikernaam">
         <label for="password">Wachtwoord:</label>
         <input type="password" name="password" id="password" placeholder="Je wachtwoord">
-        <input type="submit">
+        <input class="button" type="submit">
       </form>
     </div>
   </main>
