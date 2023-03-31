@@ -165,7 +165,7 @@ label {
   padding-left: 25px;
 }
 
-input {
+input, textarea {
   width: 100%;
   height: 50px;
   border: none;
@@ -227,6 +227,17 @@ nav a {
 nav a:hover {
   background-color: rgba(0, 0, 0, 0.05) ;
 }
-
+/* Start create pagina */
+.new{
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  background-color: red;
+  border-radius: 40px;
+  padding: 70px 50px;
+  box-shadow: 0px 10px 10px rgba(0.1);
+}
 
 
