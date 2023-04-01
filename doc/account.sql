@@ -24,3 +24,17 @@ PRIMARY KEY (`id`)
 
 INSERT INTO `user` (`username`, `password`, `name`) VALUES
 ('user1', '$2y$10$0tOrk80PfP5UUOXvF5iDzO.36e.7IWJv2YxTX0Zme94RbnK4TBrre', '3mo user1');
+
+
+DROP TABLE IF EXISTS `task`;
+CREATE TABLE IF NOT EXISTS `task` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`title` varchar(255) NOT NULL,
+`gebruiker` varchar(255) NOT NULL,
+`beschrijving` text NOT NULL,
+`afdeling` varchar(255) NOT NULL,
+`status` varchar(255) NOT NULL DEFAULT 'todo',
+`tijd` date DEFAULT NULL,
+`deadline` date DEFAULT NULL,
+PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;

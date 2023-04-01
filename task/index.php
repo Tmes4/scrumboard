@@ -20,7 +20,7 @@
 
     <?php
     require_once '../backend/conn.php';
-    $query = "SELECT * FROM  meldingen";
+    $query = "SELECT * FROM  task";
     $stmt = $conn->prepare($query);
     $stmt->execute();
     $meldingen = $stmt->fetchAll(PDO::FETCH_ASSOC);
