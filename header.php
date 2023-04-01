@@ -4,7 +4,7 @@
     <div class="header-area">
         <div class="logo">
             <img src="<?php echo $base_url; ?>./img/logo-big-v4.png" alt="">
-            <!-- <h2>Developer Land</h2> -->
+            <h2>Developer <span>Land</span> </h2>
         </div>
         <div class="navbar-area">
             <div class="nav-holder">
@@ -21,8 +21,6 @@
                 <p>EIGEN NAAM</p>
             </div>
         </div>
-<<<<<<< HEAD
-=======
     </div>
->>>>>>> parent of 9c35641 (update)
+
 </header>

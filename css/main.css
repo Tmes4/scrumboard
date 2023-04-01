@@ -71,7 +71,7 @@ header {
   position: relative;
 }
 
-.nav-holder ul li a  {
+.nav-holder ul li a {
   color: #000;
   font-size: 25px;
   cursor: pointer;
@@ -79,7 +79,7 @@ header {
 
 .nav-holder ul li::before {
   position: absolute;
-  content:"" ;
+  content: "";
   width: 40px;
   height: 20px;
   border-top: 2px solid #000000;
@@ -92,7 +92,7 @@ header {
 
 .nav-holder ul li::after {
   position: absolute;
-  content:"" ;
+  content: "";
   width: 40px;
   height: 20px;
   border-bottom: 2px solid #000000;
@@ -135,7 +135,7 @@ header {
 
 .profile img:hover {
   transition: 0.6s;
-  width: 50px ;
+  width: 50px;
 }
 
 /* Login START */
@@ -152,7 +152,7 @@ main {
 .wrapper {
   width: 500px;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   align-items: center;
   background-color: white;
   border-radius: 40px;
@@ -165,7 +165,9 @@ label {
   padding-left: 25px;
 }
 
-input, textarea {
+input,
+textarea,
+select {
   width: 100%;
   height: 50px;
   border: none;
@@ -183,7 +185,7 @@ input, textarea {
   width: 300px;
 }
 
-.button {
+.button { 
   cursor: pointer;
   background: linear-gradient(315deg, #3f3e3e 30%, #e2e2e2 60%);
 }
@@ -191,16 +193,16 @@ input, textarea {
 /* Task home STRAT */
 
 .content-area {
-    height: calc(90vh - 56px);
-    display: flex;
-    background-color: #f9f9f9;
+  height: calc(90vh - 56px);
+  display: flex;
+  background-color: #f9f9f9;
 }
 
 aside {
-    height: 100%;
-    width: 200px;
-    background-color:#D9D9D9;
-    overflow-y: auto;
+  height: 100%;
+  width: 200px;
+  background-color: #D9D9D9;
+  overflow-y: auto;
 }
 
 nav {
@@ -225,19 +227,18 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(0, 0, 0, 0.05) ;
+  background-color: rgba(0, 0, 0, 0.05);
 }
+
 /* Start create pagina */
-.new{
+.new {
   max-width: 500px;
   margin: auto;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   align-items: center;
   background-color: red;
   border-radius: 40px;
   padding: 70px 50px;
   box-shadow: 0px 10px 10px rgba(0.1);
 }
-
-
