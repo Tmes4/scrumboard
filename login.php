@@ -13,7 +13,7 @@
       <h2 class="title">Login</h2>
       <img src="<?php echo $base_url; ?>./img/logo-big-outlines-only.png" class="inlog-img">
       <form action="./backend/loginController.php" method="POST">
-        <input type="hidden" name="login" id="login">
+        <input type="hidden" name="login" >
         <label for="username">Gebruiknaam:</label>
         <input type="text" name="username" id="username" placeholder="Je gebruikernaam">
         <label for="password">Wachtwoord:</label>
