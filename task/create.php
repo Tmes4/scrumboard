@@ -49,7 +49,7 @@
 			<div class="form-group">
 
 				<div class="row-group">
-					<label for="time">Tijd & Datum:</label>
+					<label for="time">Datum:</label>
 					<input type="date" name="time" id="time" class="form-input">
 				</div>
 			</div>
