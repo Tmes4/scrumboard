@@ -8,23 +8,13 @@
 
 <body>
     <?php require_once '../header.php'; ?>
-    <?php require_once '../header.php'; ?>
 
 <div class="container">
-    <h1>Meldingen</h1>
+    <h1>Scrumboard</h1>
     <a href="./create.php">Nieuwe Taak &gt;</a>
+</div>
 
-    <?php if (isset($_GET['msg'])) {
-        echo "<div class='msg'>" . $_GET['msg'] . "</div>";
-    } ?>
 
-    <?php
-    require_once '../backend/conn.php';
-    $query = "SELECT * FROM  task";
-    $stmt = $conn->prepare($query);
-    $stmt->execute();
-    $meldingen = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    ?>
     <Section class="main">
         <div class="content-area">
             <aside>

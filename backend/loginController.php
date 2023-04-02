@@ -5,7 +5,7 @@
     $password = $_POST['password'];
 
     require_once './conn.php';
-    $query = "SELECT * FROM user WHERE username = :username";
+    $query = "SELECT * FROM users WHERE username = :username";
     $stmt = $conn->prepare($query);
     $stmt->execute([
         ":username" => $username,
