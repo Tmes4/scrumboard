@@ -395,7 +395,7 @@ h5 {
 
 }
 
-.row-card {
+.card-row {
   text-align: center;
   background-color: #ffffff;
   height: 70vh;
@@ -411,14 +411,17 @@ h5 {
 
 #first-row {
   background-color: #efefef;
+  height: 100%;
 }
 
 #second-row {
   background-color: #e7e87c;
+  height: 100%;
 }
 
 #third-row {
   background-color: #b0d0b0;
+  height: 100%;
 }
 
 .card {
@@ -426,7 +429,7 @@ h5 {
   margin-left: 10px;
   margin-right: 10px;
   background-color: white;
-  padding: 30px 200px 20px 30px;
+  padding: 30px 0;
   cursor: pointer;
   border: 1px solid rgba(0, 0, 0, .125);
   border-radius: .5rem;
@@ -434,8 +437,36 @@ h5 {
   flex-direction: column;
 }
 
+/* .card span {
+  display: block;
+  padding: 5px 0;
+  margin-bottom: 10px;
+} */
+
+.card h6 {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #000;
+  text-align: center;
+  align-items: center;
+  padding: 10px 45px;
+  font-size: 12px;
+  border-radius: 0.5rem;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  font-weight: 700;
+  font-family: monospace;
+  margin: 0 15px;
+}
+
+.card span {
+  font-weight: bold;
+  font-size: 15px;
+
+} 
+
 .edit-link {
-  padding: 2px;
+  padding: 5px;
+  margin-left: 20px ;
   text-align: center;
   border: 1px solid #000;
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
@@ -443,7 +474,7 @@ h5 {
   color: #000;
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 50%;
   border-radius: 0.5rem;
 }
 
@@ -469,6 +500,7 @@ h5 {
     margin: 10px 0;
     align-items: center;
 }
+
 /* 
 .formlabelsetting {
   font-weight: bold;

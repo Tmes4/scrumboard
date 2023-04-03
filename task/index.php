@@ -40,18 +40,30 @@
                     <div class="card-holder" id="row1">
                         <div class="card">
                             <?php foreach ($task as $t) : ?>
-                                <span>Title: <?php echo $task['title']; ?></span><br>
-                                <span>Gebruiker: <?php echo $task['user']; ?></span><br>
-                                <span>Afdeling: <?php echo $task['department']; ?></span><br>
-                                <span>Status: <?php echo $task['status']; ?></span><br>
-                                <span>Datum: <?php echo $task['time']; ?></span><br>
-                                <span>Deadline:<?php echo $task['deadline']; ?></span><br>
-                                <span>Beschrijving:<?php echo $task['description']; ?></span>
+                                <h6>Title:<span><?php echo $t['title']; ?></span></h6><br>
+                                <h6>Gebruiker:<span><?php echo $t['user']; ?></span></h6><br>
+                                <h6>Afdeling::<span><?php echo $t['department']; ?></span></h6><br>
+                                <h6>Status:<span><?php echo $t['status']; ?></span></h6><br>
+                                <h6>Datum::<span><?php echo $t['time']; ?></span></h6><br>
+                                <h6>Deadline:<span><?php echo $t['deadline']; ?></span></h6><br>
+                                <h6>Beschrijving:<span><?php echo $t['description']; ?></span></h6><br>
 
                                 <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
                             <?php endforeach; ?>
                         </div>
-                        <div class="card"><span>Mijn Taak Hallo</span><br><a href="./edit.php" class="edit-link">Edit</a></div>
+                        <div class="card">
+                            <?php foreach ($task as $t) : ?>
+                                <h6>Title:<span></span></h6><br>
+                                <h6>Gebruiker:<span></span></h6><br>
+                                <h6>Afdeling::<span></span></h6><br>
+                                <h6>Status:<span></span></h6><br>
+                                <h6>Datum::<span></span></h6><br>
+                                <h6>Deadline:<span></span></h6><br>
+                                <h6>Beschrijving:<span></span></h6><br>
+
+                                <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
+                            <?php endforeach; ?>
+                        </div>
                     </div>
                 </div>
 
@@ -59,15 +71,31 @@
                     <h5 contenteditable="true">In Progers</h5>
                     <div class="card-holder" id="row2">
                         <div class="card">
-                            <span>Title: </span><br>
-                            <span>Gebruiker:</span><br>
-                            <span>Afdeling:</span><br>
-                            <span>Status:</span><br>
-                            <span>Datum:</span><br>
-                            <span>Deadline:</span><br>
-                            <a href="./edit.php" class="edit-link">Edit</a>
+                            <?php foreach ($task as $t) : ?>
+                                <h6>Title:<span></span></h6><br>
+                                <h6>Gebruiker:<span></span></h6><br>
+                                <h6>Afdeling::<span></span></h6><br>
+                                <h6>Status:<span></span></h6><br>
+                                <h6>Datum::<span></span></h6><br>
+                                <h6>Deadline:<span></span></h6><br>
+                                <h6>Beschrijving:<span></span></h6><br>
+
+                                <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
+                            <?php endforeach; ?>
                         </div>
-                        <div class="card"><span>Mijn Taak Hallo</span><br><a href="./edit.php" class="edit-link">Edit</a></div>
+                        <div class="card">
+                            <?php foreach ($task as $t) : ?>
+                                <h6>Title:<span></span></h6><br>
+                                <h6>Gebruiker:<span></span></h6><br>
+                                <h6>Afdeling::<span></span></h6><br>
+                                <h6>Status:<span></span></h6><br>
+                                <h6>Datum::<span></span></h6><br>
+                                <h6>Deadline:<span></span></h6><br>
+                                <h6>Beschrijving:<span></span></h6><br>
+
+                                <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
+                            <?php endforeach; ?>
+                        </div>
                     </div>
                 </div>
 
@@ -76,23 +104,31 @@
                     <h5 contenteditable="true">Done</h5>
                     <div class="card-holder" id="row3">
                         <div class="card">
-                            <span>Title: </span><br>
-                            <span>Gebruiker:</span><br>
-                            <span>Afdeling:</span><br>
-                            <span>Status:</span><br>
-                            <span>Datum:</span><br>
-                            <span>Deadline:</span><br>
-                            <a href="./edit.php" class="edit-link">Edit</a>
+                            <?php foreach ($task as $t) : ?>
+                                <h6>Title:<span></span></h6><br>
+                                <h6>Gebruiker:<span></span></h6><br>
+                                <h6>Afdeling::<span></span></h6><br>
+                                <h6>Status:<span></span></h6><br>
+                                <h6>Datum::<span></span></h6><br>
+                                <h6>Deadline:<span></span></h6><br>
+                                <h6>Beschrijving:<span></span></h6><br>
+
+                                <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
+                            <?php endforeach; ?>
                         </div>
 
                         <div class="card">
-                            <span>Title: </span><br>
-                            <span>Gebruiker:</span><br>
-                            <span>Afdeling:</span><br>
-                            <span>Status:</span><br>
-                            <span>Datum:</span><br>
-                            <span>Deadline:</span><br>
-                            <a href="./edit.php" class="edit-link">Edit</a>
+                            <?php foreach ($task as $t) : ?>
+                                <h6>Title:<span></span></h6><br>
+                                <h6>Gebruiker:<span></span></h6><br>
+                                <h6>Afdeling::<span></span></h6><br>
+                                <h6>Status:<span></span></h6><br>
+                                <h6>Datum::<span></span></h6><br>
+                                <h6>Deadline:<span></span></h6><br>
+                                <h6>Beschrijving:<span></span></h6><br>
+
+                                <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
+                            <?php endforeach; ?>
                         </div>
                     </div>
                 </div>

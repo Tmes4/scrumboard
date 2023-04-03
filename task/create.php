@@ -14,7 +14,7 @@
 			<img src="<?php echo $base_url; ?>./img/logo-big-outlines-only.png" class="inlog-img">
 			<h1>Nieuwe Taken</h1>
 			<input type="hidden" name="task" value="create">
-			<input type="hidden" name="id">">
+			<input type="hidden" name="id">
 			<div class="form-group">
 				<div class="row-group">
 					<label for="title">Title:</label>
