@@ -143,18 +143,18 @@ font-size: 24px;
 } */
 
 .nav-holder ul li::after {
-  position: absolute;
+  /* position: absolute;
   content: "";
   width: 64px;
-  height: 64px;
+  height: 64px; */
   /* border-bottom: 2px solid #000000;
   border-right: 2px solid #000000; */
-  border-radius: 100%;
+  /* border-radius: 100%;
   background-color: #ffffff;
   right: 0;
   bottom: 0;
   transition: 01s;
-  opacity: 0;
+  opacity: 0; */
   /* z-index: 0; */
 }
 

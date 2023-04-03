@@ -7,9 +7,8 @@
 </head>
 
 <body>
-    <header>
-        <?php require_once '../header.php'; ?>
-    </header>
+    <?php require_once '../header.php'; ?>
+
 
     <div class="container-home">
     </div>
