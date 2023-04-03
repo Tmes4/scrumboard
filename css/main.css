@@ -142,35 +142,7 @@ font-size: 24px;
   opacity: 0;
 } */
 
-.nav-holder ul li::after {
-  position: absolute;
-  content: "";
-  width: 64px;
-  height: 64px;
-  /* border-bottom: 2px solid #000000;
-  border-right: 2px solid #000000; */
-  border-radius: 100%;
-  background-color: #ffffff;
-  right: 0;
-  bottom: 0;
-  transition: 01s;
-  opacity: 0;
-  /* z-index: 0; */
-}
 
-.nav-holder ul li:hover::before {
-  /* left: -10px;
-  top: -10px; */
-  opacity: 1;
-  cursor: pointer;
-}
-
-.nav-holder ul li:hover::after {
-  /* right: -10px;
-  bottom: -10px; */
-  opacity: 1;
-  cursor: pointer;
-}
 
 
 /* profile style */
