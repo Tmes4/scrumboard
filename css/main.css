@@ -4,11 +4,10 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
-
-
 
 
 /* :root {
@@ -19,7 +18,7 @@ html{
 body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
-/* background-color: #000; */
+  /* background-color: #000; */
 }
 
 /* header STRAT */
@@ -35,17 +34,18 @@ header {
   justify-content: space-between;
 }
 
-header ul{
+header ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 8px;
 }
-.fontawesomelogin{
+
+.fontawesomelogin {
   margin-top: -8px;
 }
 
-header ul{
+header ul {
   width: 240px;
   column-gap: 24px;
 }
@@ -74,13 +74,14 @@ header ul{
 }
 
 .logo h2 {
-color: #2F80ED;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
+  color: #2F80ED;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
 }
-.logo span{
-  color:#27AE60;
+
+.logo span {
+  color: #27AE60;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -97,7 +98,7 @@ font-size: 24px;
   background: radial-gradient(98.05% 261.61% at 1.95% 3.59%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
   backdrop-filter: blur(21px);
   border-radius: 16px;
-  }
+}
 
 
 
@@ -117,7 +118,8 @@ font-size: 24px;
   font-size: 32px;
   position: relative;
 }
-.nav-holder img{
+
+.nav-holder img {
   width: 32px;
 }
 
@@ -173,6 +175,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 .wrapper {
@@ -191,8 +194,7 @@ label {
   padding-left: 25px;
 }
 
-.wrapper input
-{
+.wrapper input {
   width: 100%;
   height: 50px;
   border: none;
@@ -211,7 +213,7 @@ label {
   width: 300px;
 }
 
-.button { 
+.button {
   cursor: pointer;
   background: linear-gradient(315deg, #3f3e3e 30%, #e2e2e2 60%);
 }
@@ -222,11 +224,11 @@ label {
 
 .create-form {
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-  padding-top: 30px;
+  padding: 30px 0;
   width: 100%;
   margin: auto;
   background-color: #3f3e3e;
-  height: 150vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -245,9 +247,8 @@ label {
 .form-group {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 20px
 }
 
 .row-group {
@@ -255,23 +256,32 @@ label {
   position: relative;
 }
 
-.row-group input, select {
-    width: 100%;
-    padding:10px;
-    background: transparent;
-    font-size: 15px;
-    border-radius: 10px;
+.row-group input,
+select {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  font-size: 15px;
+  border-radius: 10px;
 }
+
+/* .row-group select {
+  width: 100%;
+  padding:10px;
+  background: transparent;
+  font-size: 15px;
+  border-radius: 10px;
+} */
 
 .row-group label {
   height: 100%;
   padding: 10px;
-  cursor:text;
+  cursor: text;
   transition: 0.2s;
 }
 
 #submit {
-  padding: 10px 0 ;
+  padding: 10px 0;
   background: transparent;
   width: 50%;
   cursor: pointer;
@@ -280,7 +290,7 @@ label {
 
 textarea {
   width: 70%;
-  padding:10px;
+  padding: 10px;
   background: transparent;
   font-size: 15px;
   border-radius: 10px;
@@ -290,11 +300,16 @@ textarea {
 
 /* Task home STRAT */
 
+.main {
+  margin-top: 30px;
+}
+
 .content-area {
-  height: calc(90vh - 56px);
+  height: calc(100% - 56px);
   display: flex;
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
   /* justify-content: center; */
+  padding-bottom: 20px;
 }
 
 aside {
@@ -387,7 +402,7 @@ h5 {
   padding-top: 20px;
   width: 300px;
   border-radius: .5rem;
-  font-size: 16px; 
+  font-size: 16px;
 }
 
 .card-holder {
@@ -431,4 +446,3 @@ h5 {
   width: 100%;
   border-radius: 0.5rem;
 }
-

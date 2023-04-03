@@ -14,15 +14,15 @@
 			<img src="<?php echo $base_url; ?>./img/logo-big-outlines-only.png" class="inlog-img">
 			<h1>Nieuwe Taken</h1>
 			<input type="hidden" name="task" value="create">
-			<input type="hidden" name="id" value="<?php echo $id; ?>">
+			<input type="hidden" name="id">">
 			<div class="form-group">
 				<div class="row-group">
 					<label for="title">Title:</label>
-					<input type="text" name="title" id="title" class="form-input">
+					<input type="text" name="title" id="title" >
 				</div>
 				<div class="row-group">
 					<label for="user">gebruiker:</label>
-					<input type="text" name="user" id="user" class="form-input">
+					<input type="text" name="user" id="user">
 				</div>
 			</div>
 
@@ -42,7 +42,7 @@
 
 				<div class="row-group">
 					<label for="status">Status:</label>
-					<input type="text" name="status" id="status" value="To Do" class="form-input">
+					<input type="text" name="status" id="status" value="To Do" >
 				</div>
 			</div>
 
@@ -50,14 +50,14 @@
 
 				<div class="row-group">
 					<label for="time">Datum:</label>
-					<input type="date" name="time" id="time" class="form-input">
+					<input type="date" name="time" id="time">
 				</div>
-			</div>
-			
+
 				<div class="row-group">
 					<label for="deadline">Deadline:</label>
-					<input type="date" name="deadline" id="deadline" class="form-input">
+					<input type="date" name="deadline" id="deadline">
 				</div>
+			</div>
 
 
 			<div class="row-group">
