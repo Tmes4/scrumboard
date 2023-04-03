@@ -17,6 +17,54 @@
     /* display: flex;
     justify-content: center; */
   }
+  header{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    background-color: #c4e7d3;
+  }
+  .header-logo{
+    display: flex;
+    flex-direction: row;
+  }
+  .header-logo img{
+    width: 4.166666666666667vw;
+    height: auto;
+  }
+  .header-logo h2{
+    font-size: 1.32rem;
+    color: #27AE60;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .header-logo span{
+    color: #2F80ED;
+  }
+  .header-logo a{
+  text-decoration: none;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-holder{
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-holder ul{
+    list-style-type: none;
+  }
+  .nav-holder li{
+    list-style-type: none;
+
+  }
+  .homepage-profile{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  
   .main{
     /* background: url(img/old-hero-background.svg) no-repeat center center fixed; 
     background-size: cover; */
