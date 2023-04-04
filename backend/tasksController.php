@@ -34,7 +34,7 @@ if ($task == "create") {
 
 
     require_once  'conn.php';
-    $query = "INSERT INTO tasks ( title, user, department, description, status, time, deadline)
+    $query = "INSERT INTO tasks ( title, user, department, description, status, time, deadline WHERE id =:id)
     VALUES (:title, :user, :department, :description, :status, :time, :deadline)";
     $stmt = $conn->prepare($query);
     $stmt->execute([
@@ -45,6 +45,7 @@ if ($task == "create") {
         ":status" => $status,
         ":time" => $time,
         ":deadline" => $deadline,
+        ":id" => $id
     ]);
 
     $reslut = $stmt->fetchAll(PDO::FETCH_ASSOC);
