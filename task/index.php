@@ -39,8 +39,9 @@
                 <div class="card-row" id="first-row">
                     <h5 contenteditable="true">ToDo</h5>
                     <div class="card-holder" id="row1">
-                        <div class="card">
-                            <?php foreach ($task as $t) : ?>
+                        <?php foreach ($task as $t) : ?>
+                            <div class="card">
+
                                 <h6>Title:<span><?php echo $t['title']; ?></span></h6><br>
                                 <h6>Gebruiker:<span><?php echo $t['user']; ?></span></h6><br>
                                 <h6>Afdeling::<span><?php echo $t['department']; ?></span></h6><br>
@@ -50,38 +51,19 @@
                                 <h6>Beschrijving:<span><?php echo $t['description']; ?></span></h6><br>
 
                                 <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
-                            <?php endforeach; ?>
-                        </div>
-                        <div class="card">
-                            <?php foreach ($task as $t) : ?>
-                                <h6>Title:<span></span></h6><br>
-                                <h6>Gebruiker:<span></span></h6><br>
-                                <h6>Afdeling::<span></span></h6><br>
-                                <h6>Status:<span></span></h6><br>
-                                <h6>Datum::<span></span></h6><br>
-                                <h6>Deadline:<span></span></h6><br>
-                                <h6>Beschrijving:<span></span></h6><br>
 
-                                <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
-                            <?php endforeach; ?>
-=======
-                            <span>Title: <?php echo $task['title'];?></span><br>
-                            <span>Gebruiker:</span><br>
-                            <span>Afdeling:</span><br>
-                            <span>Status:</span><br>
-                            <span>Datum:</span><br>
-                            <span>Deadline:</span><br>
-                            <a href="./edit.php" class="edit-link">Edit</a>
->>>>>>> Stashed changes
-                        </div>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
+
+
                 </div>
 
                 <div class="card-row" id="second-row">
                     <h5 contenteditable="true">In Progers</h5>
                     <div class="card-holder" id="row2">
-                        <div class="card">
-                            <?php foreach ($task as $t) : ?>
+                        <?php foreach ($task as $t) : ?>
+                            <div class="card">
                                 <h6>Title:<span></span></h6><br>
                                 <h6>Gebruiker:<span></span></h6><br>
                                 <h6>Afdeling::<span></span></h6><br>
@@ -91,21 +73,9 @@
                                 <h6>Beschrijving:<span></span></h6><br>
 
                                 <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
-                            <?php endforeach; ?>
-                        </div>
-                        <div class="card">
-                            <?php foreach ($task as $t) : ?>
-                                <h6>Title:<span></span></h6><br>
-                                <h6>Gebruiker:<span></span></h6><br>
-                                <h6>Afdeling::<span></span></h6><br>
-                                <h6>Status:<span></span></h6><br>
-                                <h6>Datum::<span></span></h6><br>
-                                <h6>Deadline:<span></span></h6><br>
-                                <h6>Beschrijving:<span></span></h6><br>
+                            </div>
+                        <?php endforeach; ?>
 
-                                <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
-                            <?php endforeach; ?>
-                        </div>
                     </div>
                 </div>
 
@@ -113,8 +83,8 @@
                 <div class="card-row" id="third-row">
                     <h5 contenteditable="true">Done</h5>
                     <div class="card-holder" id="row3">
-                        <div class="card">
-                            <?php foreach ($task as $t) : ?>
+                        <?php foreach ($task as $t) : ?>
+                            <div class="card">
                                 <h6>Title:<span></span></h6><br>
                                 <h6>Gebruiker:<span></span></h6><br>
                                 <h6>Afdeling::<span></span></h6><br>
@@ -124,43 +94,14 @@
                                 <h6>Beschrijving:<span></span></h6><br>
 
                                 <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
-                            <?php endforeach; ?>
-                        </div>
+                            </div>
+                        <?php endforeach; ?>
 
-                        <div class="card">
-<<<<<<< Updated upstream
-                            <?php foreach ($task as $t) : ?>
-                                <h6>Title:<span></span></h6><br>
-                                <h6>Gebruiker:<span></span></h6><br>
-                                <h6>Afdeling::<span></span></h6><br>
-                                <h6>Status:<span></span></h6><br>
-                                <h6>Datum::<span></span></h6><br>
-                                <h6>Deadline:<span></span></h6><br>
-                                <h6>Beschrijving:<span></span></h6><br>
-
-                                <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
-                            <?php endforeach; ?>
-=======
-                            <span>Title: </span><br>
-                            <span>Gebruiker:</span><br>
-                            <span>Afdeling:</span><br>
-                            <span>Status:</span><br>
-                            <span>Datum:</span><br>
-                            <span>Deadline:</span><br>
-                            <a href="./edit.php" class="edit-link">Edit</a>
->>>>>>> Stashed changes
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
     </Section>
-
-
-
-
 </body>
 
 </html>
