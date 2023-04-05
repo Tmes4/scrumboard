@@ -18,7 +18,7 @@
 			<div class="form-group">
 				<div class="row-group">
 					<label for="title">Title:</label>
-					<input type="text" name="title" id="title" >
+					<input type="text" name="title" id="title">
 				</div>
 				<div class="row-group">
 					<label for="user">gebruiker:</label>
@@ -42,7 +42,11 @@
 
 				<div class="row-group">
 					<label for="status">Status:</label>
-					<input type="text" name="status" id="status" value="To Do" >
+					<select name="status" id="status">
+						<option value="To Do">To Do</option>
+						<option value="In Progers">In Progers</option>
+						<option value="Done">Done</option>
+					</select>
 				</div>
 			</div>
 

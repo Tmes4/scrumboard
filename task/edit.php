@@ -22,6 +22,7 @@
             <img src="<?php echo $base_url; ?>./img/logo-big-outlines-only.png" class="inlog-img">
             <h1>Taken Aanpassen</h1>
             <input type="hidden" name="task" value="update">
+            <input type="hidden" name="task" value="delete">
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             <div class="form-group">
                 <div class="row-group">
@@ -31,7 +32,7 @@
 
                 <div class="row-group">
                     <label for="user">gebruiker:</label>
-                    <input type="text" name="user" id="user">
+                    <?php echo $task['user']; ?>
                 </div>
             </div>
 
@@ -51,7 +52,11 @@
 
                 <div class="row-group">
                     <label for="status">Status:</label>
-                    <input type="text" name="status" id="status" value="To Do">
+                    <select name="status" id="status">
+                        <option value="To Do">To Do</option>
+                        <option value="In Progers">In Progers</option>
+                        <option value="Done">Done</option>
+                    </select>
                 </div>
             </div>
 
@@ -76,9 +81,10 @@
             </div>
 
             <input type="submit" id="submit" value="Wijzingen Opslaan">
+            <input type="submit" id="submit" value="Verwijderen">
+        </form>
 
     </div>
-    </form>
     </div>
 </body>
 
