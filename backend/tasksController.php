@@ -34,8 +34,8 @@ if ($task == "create") {
 
 
     require_once  'conn.php';
-    $query = "INSERT INTO tasks ( title, user, department, description, status, time, deadline WHERE id =:id)
-    VALUES (:title, :user, :department, :description, :status, :time, :deadline)";
+    $query = "INSERT INTO tasks ( title, user, department, description, status, time, deadline)
+    VALUES (:title, :user, :department, :description, :status, :time, :deadline )";
     $stmt = $conn->prepare($query);
     $stmt->execute([
         ":title" => $title,
@@ -45,7 +45,7 @@ if ($task == "create") {
         ":status" => $status,
         ":time" => $time,
         ":deadline" => $deadline,
-        ":id" => $id
+
     ]);
 
     $reslut = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -53,8 +53,7 @@ if ($task == "create") {
     header("Location:../task/index.php?msg=Task added");
 }
 
-if($task == "update") 
-{
+if ($task == "update") {
     $description = $_POST['description'];
     $status = $_POST['status'];
     $deadline = $_POST['deadline'];
@@ -70,18 +69,13 @@ if($task == "update")
     ]);
 
     header("Location:../task/index.php?msg=Task update it");
-
 }
 
-if($task == "delete")
-{
+if ($task == "delete") {
     require_once '../backend/conn.php';
     $query = "DELETE FROM tasks WHERE id = :id";
     $stmt = $conn->prepare($query);
     $stmt->execute([":id" => $id]);
 
     header("Location:../task/index.php?msg=Task delete it");
-
 }
-
-

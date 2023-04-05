@@ -22,14 +22,7 @@
 
 
     <Section class="main">
-        <?php
-        require_once '../backend/conn.php';
-        $id = $_GET['id'];
-        $query = "SELECT * FROM task WHERE id = :id";
-        $stmt = $conn->prepare($query);
-        $stmt->execute([":id" => $id]);
-        $task = $stmt->fetch(PDO::FETCH_ASSOC);
-        ?>
+
         <div class="content-area">
             <aside>
                 <nav>
@@ -47,7 +40,6 @@
                     <h5 contenteditable="true">ToDo</h5>
                     <div class="card-holder" id="row1">
                         <div class="card">
-<<<<<<< Updated upstream
                             <?php foreach ($task as $t) : ?>
                                 <h6>Title:<span><?php echo $t['title']; ?></span></h6><br>
                                 <h6>Gebruiker:<span><?php echo $t['user']; ?></span></h6><br>
