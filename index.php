@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" href="<?php echo $base_url; ?>./css/normalize.css">
     <link rel="stylesheet" href="<?php echo $base_url; ?>./css/main.css"> -->
-    <link rel="stylesheet" href="/css/home.css">
-    <!-- <?php echo $base_url; ?>. -->
+    <link rel="stylesheet" href="<?php echo $base_url; ?>./css/home.css">
+
 
     <script src="https://kit.fontawesome.com/06a9306cce.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,9 @@
     <header>
         <div class="header-logo">
             <a href="#99 "><img src="img/logo-big-fill-only.png" alt=""></a>
-            <a href="#99 "><h2>Developer <span>Land</span></h2></a>
+            <a href="#99 ">
+                <h2>Developer <span>Land</span></h2>
+            </a>
         </div>
         <div class="navbar">
             <div class="nav-holder">
@@ -44,7 +46,7 @@
             </div>
             <div class="homepage-profile">
                 <div class="avatar-header-navbar">
-                    <img src="img/avatar-demo.svg" alt=""  style="border-radius: 100%;">
+                    <img src="img/avatar-demo.svg" alt="" style="border-radius: 100%;">
                 </div>
                 <div class="line-between-nav">
                     <img src="img/lijn tussen acount.svg" alt="">
@@ -55,47 +57,47 @@
     </header>
 
     <div class="main">
-            <div class="hero" id="99">
-                <!-- <div class="background-hero"><img src="img/hero-background.png" style="width:100vw;height:auto;" alt=""></div> -->
-                <div class="hero-nonebck">
-                    <h2><span>Welkom,</span>
-                        Dit is de officiële website
-                        van DeveloperLand.
-                    </h2>
-                    <div class="device-hero"><img src="img/mockup-hero.png" alt=""></div>
-                </div>
+        <div class="hero" id="99">
+            <!-- <div class="background-hero"><img src="img/hero-background.png" style="width:100vw;height:auto;" alt=""></div> -->
+            <div class="hero-nonebck">
+                <h2><span>Welkom,</span>
+                    Dit is de officiële website
+                    van DeveloperLand.
+                </h2>
+                <div class="device-hero"><img src="img/mockup-hero.png" alt=""></div>
             </div>
-            <div class="section-1" id="91">
-                <div class="section-1-txt">
-                    <h2>Welkom bij Developer Land</h2>
-                    <p>Het bedrijf dat zich richt op de perfecte combinatie van technologie en entertainment! Onze passie voor programmeren heeft ons geleid naar de oprichting van een pretpark waar de nieuwste technologieën en attracties elkaar ontmoeten.</p>
-                </div>
-                <img src="img/ipad-n-homepg.png" alt="">
+        </div>
+        <div class="section-1" id="91">
+            <div class="section-1-txt">
+                <h2>Welkom bij Developer Land</h2>
+                <p>Het bedrijf dat zich richt op de perfecte combinatie van technologie en entertainment! Onze passie voor programmeren heeft ons geleid naar de oprichting van een pretpark waar de nieuwste technologieën en attracties elkaar ontmoeten.</p>
             </div>
-            <div class="section-2">
-                <div class="section-2-txt">
-                    <h2>Onze missie</h2>
-                    <p>Bij Developer Land geloven we dat iedereen kan leren programmeren en we zijn vastbesloten om deze boodschap uit te dragen. Ons team van experts heeft jarenlange ervaring in het ontwikkelen van software en het geven van trainingen.</p>
-                </div>
+            <img src="img/ipad-n-homepg.png" alt="">
+        </div>
+        <div class="section-2">
+            <div class="section-2-txt">
+                <h2>Onze missie</h2>
+                <p>Bij Developer Land geloven we dat iedereen kan leren programmeren en we zijn vastbesloten om deze boodschap uit te dragen. Ons team van experts heeft jarenlange ervaring in het ontwikkelen van software en het geven van trainingen.</p>
             </div>
-            <div class="section-3">
-                <div class="section-3-txt">
-                    <h2>Onze scrumboard tool</h2>
-                    <p>Om onze medewerkers optimaal te ondersteunen bij hun werkzaamheden, hebben we een innovatief scrumboard ontwikkeld. Met deze tool kunnen onze teams hun projecten plannen, prioriteren en monitoren. Het stelt ons in staat om onze processen te stroomlijnen en ervoor te zorgen dat we onze doelen op tijd bereiken.</p>
-                </div>
+        </div>
+        <div class="section-3">
+            <div class="section-3-txt">
+                <h2>Onze scrumboard tool</h2>
+                <p>Om onze medewerkers optimaal te ondersteunen bij hun werkzaamheden, hebben we een innovatief scrumboard ontwikkeld. Met deze tool kunnen onze teams hun projecten plannen, prioriteren en monitoren. Het stelt ons in staat om onze processen te stroomlijnen en ervoor te zorgen dat we onze doelen op tijd bereiken.</p>
             </div>
-            <div class="section-4">
-                <div class="section-4-txt">
-                    <h2>Onze producten en diensten</h2>
-                    <p>Bij Developer Land zijn we trots op onze producten en diensten. We zijn voortdurend bezig met het ontwikkelen van nieuwe ideeën en het verbeteren van onze bestaande projecten. Ons doel is om een brug te slaan tussen technologie en entertainment en om iedereen de kans te geven om te genieten van de wonderen van programmeren.</p>
-                </div>
+        </div>
+        <div class="section-4">
+            <div class="section-4-txt">
+                <h2>Onze producten en diensten</h2>
+                <p>Bij Developer Land zijn we trots op onze producten en diensten. We zijn voortdurend bezig met het ontwikkelen van nieuwe ideeën en het verbeteren van onze bestaande projecten. Ons doel is om een brug te slaan tussen technologie en entertainment en om iedereen de kans te geven om te genieten van de wonderen van programmeren.</p>
             </div>
-            <div class="section-5">
-                <div class="section-5-txt">
-                    <h2>Contact</h2>
-                    <p>We hopen dat u geniet van uw bezoek aan onze website en we kijken ernaar uit om u binnenkort te verwelkomen in ons pretpark! Neem gerust contact met ons op voor vragen of opmerkingen via <a href="mailto:info@developerland.com">info@developerland.com</a>.</p>
-                </div>
+        </div>
+        <div class="section-5">
+            <div class="section-5-txt">
+                <h2>Contact</h2>
+                <p>We hopen dat u geniet van uw bezoek aan onze website en we kijken ernaar uit om u binnenkort te verwelkomen in ons pretpark! Neem gerust contact met ons op voor vragen of opmerkingen via <a href="mailto:info@developerland.com">info@developerland.com</a>.</p>
             </div>
+        </div>
 
     </div>
     <footer class="footer">
@@ -119,7 +121,7 @@
                     <h4>online shop</h4>
                     <ul>
                         <li><a href="#">comming soon</a></li>
-                        <li><a href="#">comming soon</a></li>   
+                        <li><a href="#">comming soon</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -133,11 +135,7 @@
                 </div>
             </div>
         </div>
-   </footer>
+    </footer>
 </body>
 
 </html>
-
-
-
-
