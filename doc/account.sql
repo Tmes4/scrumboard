@@ -18,6 +18,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 `name` varchar(255) NOT NULL,
 `username` varchar(255) NOT NULL,
 `password` varchar(255) NOT NULL,
+`email` varchar(255) NOT NULL,  
 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
 
@@ -34,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `tasks` (
 `user` varchar(255) NOT NULL,
 `department` varchar(255) NOT NULL,
 `description` text NOT NULL,
-`status` varchar(255) NOT NULL DEFAULT 'todo',
+`status` varchar(255) NOT NULL DEFAULT,
 `time` date DEFAULT NULL,
 `deadline` date DEFAULT NULL,
 PRIMARY KEY (`id`)

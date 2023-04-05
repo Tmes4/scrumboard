@@ -52,8 +52,6 @@
                                     <h6>Beschrijving:<span><?php echo $t['description']; ?></span></h6><br>
 
                                     <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
-                                    <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Verwijderen</a>
-
                                 </div>
                             <?php endif; ?>
                         <?php endforeach; ?>
