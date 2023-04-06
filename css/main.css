@@ -539,3 +539,24 @@ h5 {
   background: linear-gradient(315deg, #3f3e3e 30%, #e2e2e2 60%);
 
 } */
+
+
+
+/* Start login page */
+
+.registreerKnop{
+  width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    padding-left: 30px;
+    margin: 10px 0;
+    align-items: center;
+}
+.register{
+  color: #000;
+  text-decoration: none;
+}
+.wachtwoordKnop{
+  text-decoration: none;
+}

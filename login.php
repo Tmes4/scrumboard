@@ -19,7 +19,8 @@
         <label for="password">Wachtwoord:</label>
         <input type="password" name="password" id="password" placeholder="Je wachtwoord">
         <input class="button" type="submit" value="Login">
-        <a href="./Register/Register.php">KILK</a>
+        <button class="registreerKnop"><a class="register" href="./Register/Register.php">Registreer</a></button>
+	      <a class="wachtwoordKnop" href="">Wachtwoord vergeten?</a>
       </form>
     </div>
   </main>
