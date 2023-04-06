@@ -23,5 +23,5 @@ if (!password_verify($password, $user['password'])) {
     header("Location:$base_url/login.php?msg=$msg");
 }
 
-header("Location:../task/index.php?msg=Login sec6
+header("Location:../task/index.php?msg=Login sec6");
 $_SESSION['user_id'] = $user['id'];
