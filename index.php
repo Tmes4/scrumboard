@@ -28,8 +28,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-logo">
+    <header>        <div class="header-logo">
+
             <a href="#99 "><img src="img/logo-big-fill-only.png" alt=""></a>
             <a href="#99 ">
                 <h2>Developer <span>Land</span></h2>
@@ -56,7 +56,7 @@
         </div>
     </header>
 
-    <div class="main">
+    <div class="index-main">
         <div class="hero" id="99">
             <!-- <div class="background-hero"><img src="img/hero-background.png" style="width:100vw;height:auto;" alt=""></div> -->
             <div class="hero-nonebck">

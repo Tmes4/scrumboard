@@ -23,12 +23,12 @@ body {
 
 /* header STRAT */
 
-header {
+/* header {
   width: 100%;
   height: 100px;
   background: radial-gradient(98.05% 261.61% at 1.95% 3.59%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
   backdrop-filter: blur(21px);
-  /* position: fixed; */
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,16 +39,16 @@ header ul {
   justify-content: space-around;
   align-items: center;
   margin-top: 8px;
-}
+} */
 
 .fontawesomelogin {
   margin-top: -8px;
 }
 
-header ul {
+/* header ul {
   width: 240px;
   column-gap: 24px;
-}
+} */
 
 
 /* .header-area {
