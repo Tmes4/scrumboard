@@ -4,8 +4,6 @@
 <?php require_once 'backend/config.php' ?>
 <meta charset="UFT-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="<?php echo $base_url; ?>./css/normalize.css">
-    <link rel="stylesheet" href="<?php echo $base_url; ?>./css/main.css"> -->
     <link rel="stylesheet" href="<?php echo $base_url; ?>./css/home.css">
 
 
@@ -27,8 +25,8 @@
 </head>
 <header>
         <div class="header-logo">
-            <a href="index.php"><img src="img/logo-big-fill-only.png" alt=""></a>
-            <a href="index.php">
+            <a href="./index.php"><img src="img/logo-big-fill-only.png" alt=""></a>
+            <a href="./index.php">
                 <h2>Developer <span>Land</span></h2>
             </a>
         </div>
