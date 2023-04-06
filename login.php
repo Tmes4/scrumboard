@@ -11,6 +11,9 @@
   <main>
     <div class="wrapper">
       <h2 class="title">Login</h2>
+      <?php if (isset($_GET['msg'])) {
+        echo "<div class='msg'>" . $_GET['msg'] . "</div>";
+      } ?>
       <img src="<?php echo $base_url; ?>./img/logo-big-outlines-only.png" class="inlog-img">
       <form action="./backend/loginController.php" method="POST">
         <input type="hidden" name="login">

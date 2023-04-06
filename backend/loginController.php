@@ -3,8 +3,7 @@ session_start();
 
 $username = $_POST['username'];
 $password = $_POST['password'];
-$hased_password = password_hash($password, PASSWORD_DEFAULT);
-$Register = $_POST['Register'];
+
 
 require_once './conn.php';
 $query = "SELECT * FROM users WHERE username = :username";
@@ -24,21 +23,5 @@ if (!password_verify($password, $user['password'])) {
     header("Location:$base_url/login.php?msg=$msg");
 }
 
-
-if ($Register == "create") {
-    $name = $_POST['name'];
-
-    require_once 'conn.php';
-
-    if ($stmt->rowCount() > 0) {
-        $msg = "Error: gebruiksnaam bestaat all";
-        header("Location:$base_url/login.php?msg=$msg");
-    } else {
-        $query = "INSERT INTO users (name , username, password)
-        VALUES ('$name', '$username', '$hased_password')";
-        $stmt = $conn->prepare($query);
-        $stmt->execute();
-        $reslut = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    }
-}
+header("Location:../task/index.php?msg=Login sec6");
 $_SESSION['user_id'] = $user['id'];
