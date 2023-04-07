@@ -62,7 +62,7 @@ header ul {
 
 /* logo style */
 
-.logo {
+/* .logo {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -85,10 +85,10 @@ header ul {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-}
+} */
 
 /* nav */
-.navbar-area {
+/* .navbar-area {
   display: flex;
   justify-content: space-around;
   width: 30%;
@@ -105,16 +105,12 @@ header ul {
 .nav-holder ul {
   width: 100%;
   list-style: none;
-  /* display: flex;
-  justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
 }
 
 
 .nav-holder ul li {
-  /* display: inline-block; */
-  /* padding: 5px 10px; */
-
-
   font-size: 32px;
   position: relative;
 }
@@ -129,12 +125,12 @@ header ul {
   cursor: pointer;
 }
 
-/* .nav-holder ul li::before {
+.nav-holder ul li::before {
   position: absolute;
   content: "";
   width: 40px;
   height: 20px;
-  /* border-top: 2px solid #000000;
+  border-top: 2px solid #000000;
   border-left: 2px solid #000000;
   border-radius: 24px;
   background-color: #000;
@@ -148,7 +144,7 @@ header ul {
 
 
 /* profile style */
-
+/* 
 .profile {
   display: flex;
   justify-content: space-around;
@@ -162,7 +158,7 @@ header ul {
   align-items: center;
 }
 
-/* .profile img:hover {
+.profile img:hover {
   transition: 0.6s;
   width: 50px;
 } */
@@ -299,8 +295,8 @@ textarea {
 
 /* Task home STRAT */
 
-.main {
-  margin-top: 30px;
+.main-ts {
+  padding-top: 100px;
 }
 
 .content-area {
@@ -345,7 +341,7 @@ nav a:hover {
 }
 
 .container {
-  height: 12vh;
+  height: 17vh;
 }
 
 .container h1 {
@@ -544,19 +540,21 @@ h5 {
 
 /* Start login page */
 
-.registreerKnop{
+.registreerKnop {
   width: 100%;
-    height: 50px;
-    border: none;
-    border-radius: 50px;
-    padding-left: 30px;
-    margin: 10px 0;
-    align-items: center;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  padding-left: 30px;
+  margin: 10px 0;
+  align-items: center;
 }
-.register{
+
+.register {
   color: #000;
   text-decoration: none;
 }
-.wachtwoordKnop{
+
+.wachtwoordKnop {
   text-decoration: none;
 }

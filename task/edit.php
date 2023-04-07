@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <?php require_once '../header.php' ?>
+    <?php require_once '../header.php'; ?>
     <div class="create-form">
         <?php
         $id = $_GET['id'];
