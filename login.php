@@ -7,8 +7,8 @@
 </head>
 
 <body>
+  <?php require_once './header.php'; ?>
   <main>
-    <?php require_once './header.php'; ?>
     <div class="wrapper">
       <h2 class="title">Login</h2>
       <?php if (isset($_GET['msg'])) {

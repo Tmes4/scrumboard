@@ -181,7 +181,7 @@ main {
   align-items: center;
   background-color: white;
   border-radius: 40px;
-  padding: 70px 50px;
+  padding: 35px 50px;
   box-shadow: 0px 10px 10px rgba(0.1);
 }
 
@@ -202,7 +202,6 @@ label {
 
 .title {
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .inlog-img {
@@ -220,7 +219,7 @@ label {
 
 .create-form {
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-  padding: 30px 0;
+  padding: 125px 0 30px;
   width: 100%;
   margin: auto;
   background-color: #3f3e3e;
@@ -474,6 +473,36 @@ h5 {
 }
 
 /* Css setting pagina start */
+
+.setting {
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 115px;
+}
+
+.wrapper-sett {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  padding: 70px 50px 10px;
+  box-shadow: 0px 10px 10px rgba(0.1);
+}
+
+.wrapper-sett input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  padding-left: 30px;
+  margin: 10px 0;
+  align-items: center;
+}
 
 .formSetting {
   width: 500px;

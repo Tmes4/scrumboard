@@ -127,9 +127,9 @@ header {
   /* background: url(img/old-hero-background.svg) no-repeat center center fixed; 
     background-size: cover; */
   width: auto;
-  height: 300vh;
   margin-left: 16%;
   margin-right: 16%;
+  margin-bottom: 6%;
   /* display: flex;
   justify-content: center;
   flex-direction: column; */

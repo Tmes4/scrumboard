@@ -85,6 +85,7 @@
             </form>
             <form action="../backend/tasksController.php" method="POST">
                 <input type="hidden" name="id" value="<?php echo $id; ?>">
+                <input type="hidden" name="task" value="delete">
                 <input type="submit" id="submit" value="VERWIJDEREN">
 
 

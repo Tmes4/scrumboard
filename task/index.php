@@ -44,11 +44,8 @@
                                 <div class="card">
 
                                     <h6>Title:<span><?php echo $t['title']; ?></span></h6><br>
-                                    <h6>Gebruiker:<span><?php echo $t['user']; ?></span></h6><br>
                                     <h6>Afdeling::<span><?php echo $t['department']; ?></span></h6><br>
                                     <h6>Status:<span><?php echo $t['status']; ?></span></h6><br>
-                                    <h6>Datum::<span><?php echo $t['time']; ?></span></h6><br>
-                                    <h6>Deadline:<span><?php echo $t['deadline']; ?></span></h6><br>
                                     <h6>Beschrijving:<span><?php echo $t['description']; ?></span></h6><br>
 
                                     <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
@@ -67,11 +64,8 @@
                             <?php if ($t['status'] == "In Progers") : ?>
                                 <div class="card">
                                     <h6>Title:<span><?php echo $t['title']; ?></span></h6><br>
-                                    <h6>Gebruiker:<span><?php echo $t['user']; ?></span></h6><br>
                                     <h6>Afdeling::<span><?php echo $t['department']; ?></span></h6><br>
                                     <h6>Status:<span><?php echo $t['status']; ?></span></h6><br>
-                                    <h6>Datum::<span><?php echo $t['time']; ?></span></h6><br>
-                                    <h6>Deadline:<span><?php echo $t['deadline']; ?></span></h6><br>
                                     <h6>Beschrijving:<span><?php echo $t['description']; ?></span></h6><br>
 
                                     <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
@@ -90,11 +84,8 @@
                             <?php if ($t['status'] == "Done") : ?>
                                 <div class="card">
                                     <h6>Title:<span><?php echo $t['title']; ?></span></h6><br>
-                                    <h6>Gebruiker:<span><?php echo $t['user']; ?></span></h6><br>
                                     <h6>Afdeling::<span><?php echo $t['department']; ?></span></h6><br>
                                     <h6>Status:<span><?php echo $t['status']; ?></span></h6><br>
-                                    <h6>Datum::<span><?php echo $t['time']; ?></span></h6><br>
-                                    <h6>Deadline:<span><?php echo $t['deadline']; ?></span></h6><br>
                                     <h6>Beschrijving:<span><?php echo $t['description']; ?></span></h6><br>
 
                                     <a class="edit-link" href="edit.php?id=<?php echo $t['id']; ?>">Edit</a>
