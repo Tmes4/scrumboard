@@ -227,7 +227,8 @@ header {
 .section-2,
 .section-3,
 .section-4,
-.section-5 {
+.section-5, 
+.section-6-our-service {
   background-color: #1BD4FD;
   padding: 50px;
   margin-top: 50px;
@@ -238,7 +239,8 @@ header {
 .section-2-txt,
 .section-3-txt,
 .section-4-txt,
-.section-5-txt {
+.section-5-txt, 
+.section-6-our-service {
   font-family: Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
@@ -262,7 +264,8 @@ header {
 .section-2 p,
 .section-3 p,
 .section-4 p,
-.section-5 p {
+.section-5 p,
+.section-6-our-service {
   font-size: 16px;
   line-height: 1.5;
   color: #666;
@@ -288,6 +291,7 @@ header {
 
 .section-3 {
   text-align: end;
+
 }
 
 

@@ -3,8 +3,8 @@
 
 <head>
     <?php require_once './head.php'; ?>
-    <title>Home</title>
-</head>
+    <title>FAQ</title>
+</head> 
 
 <body>
     <?php require_once './header.php'; ?>
@@ -28,27 +28,33 @@
         </div>
         <div class="section-2">
             <div class="section-2-txt">
-                <h2>Onze missie</h2>
-                <p>Bij Developer Land geloven we dat iedereen kan leren programmeren en we zijn vastbesloten om deze boodschap uit te dragen. Ons team van experts heeft jarenlange ervaring in het ontwikkelen van software en het geven van trainingen.</p>
+                <h2>Wat is Developer Land?</h2>
+                <p>Developer Land is een pretpark dat zich richt op de combinatie van technologie en entertainment. Het is een plek waar bezoekers kunnen genieten van de nieuwste technologieën en attracties die allemaal met programmeren te maken hebben.</p>
             </div>
         </div>
         <div class="section-3">
-            <div class="section-3-txt">
-                <h2>Onze scrumboard tool</h2>
-                <p>Om onze medewerkers optimaal te ondersteunen bij hun werkzaamheden, hebben we een innovatief scrumboard ontwikkeld. Met deze tool kunnen onze teams hun projecten plannen, prioriteren en monitoren. Het stelt ons in staat om onze processen te stroomlijnen en ervoor te zorgen dat we onze doelen op tijd bereiken.</p>
+            <div class="section-3-txt" style="    display: flex;    justify-content: space-between;  align-items: center;  text-align: start;  column-gap:20px;;">
+                <img src="img/logo-big-fill-only.png" alt="" style="width:16vw;">
+                <div class="section-3-txt-faq" style="display:flex; flex-direction:column;">    
+                    <h2>Wat is een scrumboard?</h2>
+                    <p>Een scrumboard is een hulpmiddel dat gebruikt wordt om projecten te plannen, prioriteren en monitoren. Het is ontwikkeld door ons team van experts om onze medewerkers te ondersteunen bij hun werkzaamheden.</p>
+                </div>
             </div>
         </div>
         <div class="section-4">
             <div class="section-4-txt">
-                <h2>Onze producten en diensten</h2>
-                <p>Bij Developer Land zijn we trots op onze producten en diensten. We zijn voortdurend bezig met het ontwikkelen van nieuwe ideeën en het verbeteren van onze bestaande projecten. Ons doel is om een brug te slaan tussen technologie en entertainment en om iedereen de kans te geven om te genieten van de wonderen van programmeren.</p>
+                <h2>Biedt Developer Land ook educatieve programma's aan?</h2>
+                <p>Ja, we bieden educatieve programma's aan voor zowel individuen als groepen. Onze programma's zijn gericht op het leren programmeren en het ontwikkelen van technische vaardigheden.</p>
             </div>
         </div>
         <div class="section-5">
             <div class="section-5-txt">
-                <h2>Contact</h2>
-                <p>We hopen dat u geniet van uw bezoek aan onze website en we kijken ernaar uit om u binnenkort te verwelkomen in ons pretpark! Neem gerust contact met ons op voor vragen of opmerkingen via <a href="mailto:info@developerland.com">info@developerland.com</a>.</p>
+                <h2>Is Developer Land geschikt voor kinderen?</h2>
+                <p>Ja, Developer Land is geschikt voor kinderen van alle leeftijden. We hebben attracties en activiteiten die speciaal zijn ontworpen voor kinderen, evenals educatieve programma's die hen kunnen helpen om technische vaardigheden te ontwikkelen.</p>
             </div>
+        </div>
+        <div class="faq-section-6" style="width:64vw; display:flex; justify-content:center; text-align:center; margin-top:4vh;">
+            <p>We hopen dat deze antwoorden uw vragen hebben beantwoord. Als u meer informatie nodig heeft, neem dan gerust contact met ons op.</p>
         </div>
 
     </div>
@@ -58,9 +64,9 @@
                 <div class="footer-col">
                     <h4>company</h4>
                     <ul>
-                        <li><a href="#91">about us</a></li>
-                        <li><a href="our-services.php">our services</a></li>
-                        <li><a href="/privacy-policy.php">privacy policy</a></li>
+                        <li><a href="index.php #91">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="policy.php">privacy policy</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -91,3 +97,8 @@
 </body>
 
 </html>
+
+
+
+
+
