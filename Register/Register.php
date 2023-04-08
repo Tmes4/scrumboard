@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once '../head.php'; ?>
-    <title>Registreren</title>
+    <title>Registreren | Developer Land</title>
 </head>
 
 <body>

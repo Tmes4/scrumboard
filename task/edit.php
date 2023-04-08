@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once '../head.php' ?>
-    <title>Create new task</title>
+    <title>Create new task | Developer Land</title>
 </head>
 
 <body>

@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once './head.php'; ?>
-    <title>Privacy Policy</title>
+    <title>Privacy Policy | Developer Land</title>
 </head> 
 
 <body>

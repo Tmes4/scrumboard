@@ -1,5 +1,8 @@
 <?php require_once 'backend/config.php'; ?>
 
+<link rel="shortcut icon" type="x-icon" href="img/logo-big-fill-only.png">
+
+
 <meta charset="UFT-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- css  -->

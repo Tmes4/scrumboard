@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once './head.php'; ?>
-    <title>FAQ</title>
+    <title>FAQ | Developer Land</title>
 </head> 
 
 <body>

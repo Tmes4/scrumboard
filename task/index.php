@@ -3,7 +3,7 @@
 
 <head>
     <?php require_once '../head.php'; ?>
-    <title>Scrumboard</title>
+    <title>Scrumboard | Developer Land</title>
 </head>
 
 <body>
